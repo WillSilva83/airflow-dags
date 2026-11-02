@@ -1,0 +1,14 @@
+# Ambiente local
+.env
+__pycache__/
+.pytest_cache/
+.venv/
+.env*
+# Airflow
+logs/*
+!logs/.gitkeep
+
+# Ferramentas
+.idea/
+.vscode/
+*.py[cod]
